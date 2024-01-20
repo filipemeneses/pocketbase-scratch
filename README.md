@@ -14,3 +14,10 @@ docker logs pocketbase
 ```
 
 > An official image may be released based on this image, see https://github.com/pocketbase/pocketbase/issues/92. 
+
+# Building and pushing example
+
+```sh
+docker build . --tag filipemeneses/pocketbase-scratch:0.20.7-linux-armv7
+docker push filipemeneses/pocketbase-scratch:0.20.7-linux-armv7
+```
